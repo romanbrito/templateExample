@@ -35,4 +35,7 @@ nav {
 #staggered-test li, #image-test {
     opacity: 0;
 }
+#image-test {
+    width:100%;
+}
 /*End ScrollFire*/

@@ -41,7 +41,7 @@ Template.Scroll_fire.onRendered(function () {
     {selector: '#staggered-test', offset: 400, callback: function(el) {
       Materialize.showStaggeredList($(el));
     } },
-    {selector: '#image-test', offset: 500, callback: function(el) {
+    {selector: '#image-test', offset: 250, callback: function(el) {
       Materialize.fadeInImage($(el));
     } }
   ];
