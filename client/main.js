@@ -23,25 +23,12 @@ Template.hello.events({
 
 Template.Nav_bar.onRendered(function () {
   $(document).ready(function () {
+
     $(".button-collapse").sideNav();
-
-    $('.carousel.carousel-slider').carousel({
-      fullWidth: true
+    $('.slider').slider();
     });
 
-    $(window).resize(function (evt) {
-      // to avoid Uncaught RangeError: Maximum call stack size exceeded
-      // when resizing window
-      setTimeout(function () {
-        $('.carousel.carousel-slider').carousel({
-          fullWidth: true
-        });
-      }, 100);
-
-    });
-
-  })
-});
+  });
 
 // Meteor.startup(function () {
 //   $(window).resize(function (evt) {
