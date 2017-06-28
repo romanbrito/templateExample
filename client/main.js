@@ -1,5 +1,5 @@
-import { Template } from 'meteor/templating';
-import { ReactiveVar } from 'meteor/reactive-var';
+import {Template} from 'meteor/templating';
+import {ReactiveVar} from 'meteor/reactive-var';
 
 import './main.html';
 
@@ -21,21 +21,34 @@ Template.hello.events({
   },
 });
 
-Template.Nav_bar.onRendered( function () {
-  $( document ).ready(function(){
+Template.Nav_bar.onRendered(function () {
+  $(document).ready(function () {
     $(".button-collapse").sideNav();
-    $('.carousel.carousel-slider').carousel({
-      fullWidth: true
-    });
-  })
-});
-
-Template.Nav_bar.on( function () {
-  $( document ).ready(function(){
 
     $('.carousel.carousel-slider').carousel({
       fullWidth: true
     });
 
+    $(window).resize(function (evt) {
+      // to avoid Uncaught RangeError: Maximum call stack size exceeded
+      // when resizing window
+      setTimeout(function () {
+        $('.carousel.carousel-slider').carousel({
+          fullWidth: true
+        });
+      }, 100);
+
+    });
+
   })
 });
+
+// Meteor.startup(function () {
+//   $(window).resize(function (evt) {
+//
+//     $('.carousel.carousel-slider').carousel({
+//       fullWidth: true
+//     });
+//
+//   });
+// });
