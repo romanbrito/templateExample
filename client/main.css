@@ -30,3 +30,9 @@ nav {
     /* text-align: left; */
 }
 /*End Slider*/
+
+/*ScrollFire*/
+#staggered-test li, #image-test {
+    opacity: 0;
+}
+/*End ScrollFire*/
