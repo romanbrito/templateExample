@@ -1,0 +1,32 @@
+<head>
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>templateExample</title>
+</head>
+
+<body>
+{{> Nav_bar }}
+{{> Carousel_slider }}
+{{> hello}}
+{{> info}}
+{{> bye}}
+
+</body>
+
+<template name="hello">
+    <button>Click Me</button>
+    <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="info">
+    <h2>Learn Meteor!</h2>
+    <ul>
+        <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
+        <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
+        <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
+        <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
+    </ul>
+</template>
