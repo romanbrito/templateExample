@@ -1,7 +1,27 @@
+import React from 'react';
+import { Meteor } from 'meteor/meteor';
+import { render } from 'react-dom';
 import {Template} from 'meteor/templating';
 import {ReactiveVar} from 'meteor/reactive-var';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 
 import './main.html';
+
+// helps with mobile touch
+injectTapEventPlugin();
+
+// accounts configuration
+
+
+import App from '../imports/ui/App.jsx';
+// React
+Meteor.startup(() => {
+  render(<App />, document.getElementById('render-target'));
+});
+
+
+
+
 
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
@@ -26,9 +46,9 @@ Template.Nav_bar.onRendered(function () {
 
     $(".button-collapse").sideNav();
     $('.slider').slider();
-    });
-
   });
+
+});
 
 Template.Scroll_fire.onRendered(function () {
   var options = [
