@@ -10,10 +10,6 @@ import Pic from './Pic';
 
 export default class Instagram extends Component {
 
-  state = {
-    firstPic: '',
-  };
-
   getPics() {
     console.log("getpics");
     Meteor.call('getInstagram', (error) => {
@@ -35,10 +31,6 @@ export default class Instagram extends Component {
     ));
   }
 
-  componentWillReceiveProps(nextProps) {
-    this.setState({firstPic:nextProps.pics[0].profilePic})
-  }
-
   render() {
     return (
       <div>
@@ -52,7 +44,7 @@ export default class Instagram extends Component {
         {this.getPics()}
         <div className="row">
           {/*Display pics from instagram*/}
-          <div className="col s3"><img src={this.state.firstPic} alt=""/></div>
+          <div className="col s12 m6 l3 xl3"><i className="fa fa-instagram" aria-hidden="true"></i></div>
           {this.renderPics()}
         </div>
 

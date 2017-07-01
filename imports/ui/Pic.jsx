@@ -8,7 +8,7 @@ export default class Pic extends Component {
     }
 
     return (
-      <div className="col s3">
+      <div className="col s12 m6 l3 xl3">
         <img src={this.props.pic.imageURL} alt={this.props.pic.imageURL}/>
       </div>
     );
