@@ -1,14 +1,16 @@
 import React, {Component} from 'react';
 import { Meteor } from 'meteor/meteor';
+import {createContainer} from 'meteor/react-meteor-data';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RaisedButton from 'material-ui/RaisedButton';
 
 
 import Pic from './Pic';
+import { Pics } from '../api/pics';
 
 
-export default class Instagram extends Component {
+class Instagram extends Component {
 
   getPics() {
     console.log("getpics");
@@ -53,3 +55,11 @@ export default class Instagram extends Component {
     );
   }
 }
+
+export default createContainer(() => {
+  // subscribe api after removing autopublish
+
+  return {
+    pics: Pics.find({}, {limit: 3} ).fetch(),
+  }
+}, Instagram);

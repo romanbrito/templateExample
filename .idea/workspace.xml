@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32c57f7b-5952-49ef-b164-6ba054ce1c9a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/templateExample.iml" afterPath="$PROJECT_DIR$/.idea/templateExample.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.css" afterPath="$PROJECT_DIR$/client/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/App.jsx" afterPath="$PROJECT_DIR$/imports/ui/App.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/Instagram.jsx" afterPath="$PROJECT_DIR$/imports/ui/Instagram.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/Pic.jsx" afterPath="$PROJECT_DIR$/imports/ui/Pic.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,102 +19,69 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="Slider.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/Slider.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Scroll_fire.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/Scroll_fire.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/imports/ui/App.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.jsx" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/main.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="782">
-                  <caret line="64" column="37" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/main.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Pic.jsx" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/imports/ui/Pic.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="469">
-                  <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Instagram.jsx" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/imports/ui/Instagram.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="393">
-                  <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/main.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <marker date="1498943093712" expanded="true" signature="430:494" ph="{...}" />
+                <marker date="1498943093712" expanded="true" signature="553:618" ph="{...}" />
+                <marker date="1498943093712" expanded="true" signature="645:713" ph="{...}" />
+                <marker date="1498943093712" expanded="true" signature="659:710" ph="{...}" />
+                <marker date="1498943093712" expanded="true" signature="739:889" ph="{...}" />
+                <marker date="1498943093712" expanded="true" signature="775:886" ph="{...}" />
+                <marker date="1498943093712" expanded="true" signature="967:1037" ph="{...}" />
+                <marker date="1498943093712" expanded="true" signature="1090:1677" ph="{...}" />
+                <marker date="1498943093712" expanded="true" signature="1108:1639" ph="[...]" />
+                <marker date="1498943093712" expanded="true" signature="1114:1252" ph="{&quot;selector&quot;: '##staggered-test'...}" />
+                <marker date="1498943093712" expanded="true" signature="1179:1250" ph="{...}" />
+                <marker date="1498943093712" expanded="true" signature="1258:1395" ph="{&quot;selector&quot;: '##staggered-test'...}" />
+                <marker date="1498943093712" expanded="true" signature="1324:1393" ph="{...}" />
+                <marker date="1498943093712" expanded="true" signature="1401:1520" ph="{&quot;selector&quot;: '##staggered-test'...}" />
+                <marker date="1498943093712" expanded="true" signature="1467:1518" ph="{...}" />
+                <marker date="1498943093712" expanded="true" signature="1526:1635" ph="{&quot;selector&quot;: '##image-test'...}" />
+                <marker date="1498943093712" expanded="true" signature="1588:1633" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/ui/App.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instagram.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imports/ui/Instagram.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -141,11 +108,11 @@
         <option value="$PROJECT_DIR$/client/main.html" />
         <option value="$PROJECT_DIR$/server/main.js" />
         <option value="$PROJECT_DIR$/client/main.jsx" />
-        <option value="$PROJECT_DIR$/imports/ui/App.jsx" />
         <option value="$PROJECT_DIR$/imports/api/pics.js" />
         <option value="$PROJECT_DIR$/server/methods.js" />
         <option value="$PROJECT_DIR$/client/main.css" />
         <option value="$PROJECT_DIR$/imports/ui/Pic.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/App.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/Instagram.jsx" />
       </list>
     </option>
@@ -379,7 +346,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43922000" />
+    <option name="totallyTimeSpent" value="44526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -453,14 +420,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -473,9 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,9 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -539,9 +493,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -551,6 +503,23 @@
           <caret line="64" column="37" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <marker date="1498943093712" expanded="true" signature="430:494" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="553:618" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="645:713" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="659:710" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="739:889" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="775:886" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="967:1037" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="1090:1677" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="1108:1639" ph="[...]" />
+            <marker date="1498943093712" expanded="true" signature="1114:1252" ph="{&quot;selector&quot;: '##staggered-test'...}" />
+            <marker date="1498943093712" expanded="true" signature="1179:1250" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="1258:1395" ph="{&quot;selector&quot;: '##staggered-test'...}" />
+            <marker date="1498943093712" expanded="true" signature="1324:1393" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="1401:1520" ph="{&quot;selector&quot;: '##staggered-test'...}" />
+            <marker date="1498943093712" expanded="true" signature="1467:1518" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="1526:1635" ph="{&quot;selector&quot;: '##image-test'...}" />
+            <marker date="1498943093712" expanded="true" signature="1588:1633" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -725,10 +694,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/main.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="64" column="37" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <marker date="1498943093712" expanded="true" signature="430:494" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="553:618" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="645:713" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="659:710" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="739:889" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="775:886" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="967:1037" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="1090:1677" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="1108:1639" ph="[...]" />
+            <marker date="1498943093712" expanded="true" signature="1114:1252" ph="{&quot;selector&quot;: '##staggered-test'...}" />
+            <marker date="1498943093712" expanded="true" signature="1179:1250" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="1258:1395" ph="{&quot;selector&quot;: '##staggered-test'...}" />
+            <marker date="1498943093712" expanded="true" signature="1324:1393" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="1401:1520" ph="{&quot;selector&quot;: '##staggered-test'...}" />
+            <marker date="1498943093712" expanded="true" signature="1467:1518" ph="{...}" />
+            <marker date="1498943093712" expanded="true" signature="1526:1635" ph="{&quot;selector&quot;: '##image-test'...}" />
+            <marker date="1498943093712" expanded="true" signature="1588:1633" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -760,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,16 +755,6 @@
           <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -814,8 +787,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="223">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -828,10 +801,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/Instagram.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+        <state relative-caret-position="512">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
