@@ -18,6 +18,6 @@ export default createContainer(() => {
   // subscribe api after removing autopublish
 
   return {
-    pics: Pics.find({}).fetch(),
+    pics: Pics.find({}, {limit: 3} ).fetch(),
   }
 }, Instagram);

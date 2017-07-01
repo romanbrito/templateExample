@@ -22,7 +22,9 @@ export default class Instagram extends Component {
   }
 
   renderPics() {
-    console.log("api " + this.props.pics);
+    console.log("api render " + this.props.pics);
+    //console.log("profile pic " + this.props.pics[0].profilePic)
+
 
     return this.props.pics.map((pic) => (
       <Pic key={pic._id} pic={pic}/>
@@ -32,18 +34,20 @@ export default class Instagram extends Component {
   render() {
     return (
       <div>
-        <MuiThemeProvider>
-          <RaisedButton
-            label="Oh Yeah we did it"
-            onTouchTap={this.getPics}
-          />
-        </MuiThemeProvider>
+        {/*<MuiThemeProvider>*/}
+          {/*<RaisedButton*/}
+            {/*label="Oh Yeah we did it"*/}
+            {/*onTouchTap={this.getPics()}*/}
+          {/*/>*/}
+        {/*</MuiThemeProvider>*/}
 
-        <ul>
+        {this.getPics()}
+        <div className="row">
           {/*Display pics from instagram*/}
+          <div className="col s3"><img src="" alt=""/></div>
           {this.renderPics()}
+        </div>
 
-        </ul>
 
       </div>
     );

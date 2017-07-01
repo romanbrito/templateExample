@@ -6,10 +6,11 @@ export default class Pic extends Component {
     {
       console.log(this.props.pic)
     }
+
     return (
-      <li>
+      <div className="col s3">
         <img src={this.props.pic.imageURL} alt={this.props.pic.imageURL}/>
-      </li>
+      </div>
     );
   }
 }

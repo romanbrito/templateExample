@@ -9,4 +9,5 @@ export const Pics = new Mongo.Collection('pics');
 const PicSchema = new SimpleSchema({
   imageURL: {type: String},
   picID: { type: String},
+  profilePic: { type: String},
 });

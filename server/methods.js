@@ -29,7 +29,8 @@ Meteor.methods({
 
           Pics.insert({
             imageURL: element.images.standard_resolution.url,
-            picID: element.id
+            picID: element.id,
+            profilePic: element.user.profile_picture,
           });
 
         }
