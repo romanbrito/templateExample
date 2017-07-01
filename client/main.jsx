@@ -11,7 +11,7 @@ import './main.html';
 injectTapEventPlugin();
 
 // accounts configuration
-
+import '../imports/startup/accounts-config';
 
 import App from '../imports/ui/App.jsx';
 // React
