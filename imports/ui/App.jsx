@@ -15,7 +15,10 @@ class App extends Component {
         </div>
 
         <div className="row">
-          <AccountsUIWrapper/>
+          <div className="col s6 offset-s6">
+            <AccountsUIWrapper/>
+          </div>
+
         </div>
 
       </div>
