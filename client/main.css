@@ -1,4 +1,5 @@
 /* CSS declarations go here */
+
 /*Navegation*/
 nav ul a {
     color: #333;
@@ -41,8 +42,12 @@ nav {
 }
 /*End ScrollFire*/
 
-/*Instagram api*/
+/*Instagram*/
+#instagram {
+    overflow: hidden;
+}
+
 i.fa.fa-instagram {
     font-size: 11em;
 }
-/*End Instagram api*/
+/*End Instagram*/

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Meteor } from 'meteor/meteor';
+import {Meteor} from 'meteor/meteor';
 import {createContainer} from 'meteor/react-meteor-data';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -7,7 +7,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 
 
 import Pic from './Pic';
-import { Pics } from '../api/pics';
+import {Pics} from '../api/pics';
 
 
 class Instagram extends Component {
@@ -35,20 +35,13 @@ class Instagram extends Component {
 
   render() {
     return (
-      <div>
-        {/*<MuiThemeProvider>*/}
-          {/*<RaisedButton*/}
-            {/*label="Oh Yeah we did it"*/}
-            {/*onTouchTap={this.getPics()}*/}
-          {/*/>*/}
-        {/*</MuiThemeProvider>*/}
+      <div id="instagram">
 
         {this.getPics()}
-        <div className="row">
-          {/*Display pics from instagram*/}
-          <div className="col s12 m6 l3 xl3"><i className="fa fa-instagram" aria-hidden="true"></i></div>
-          {this.renderPics()}
-        </div>
+
+        {/*Display pics from instagram*/}
+        <div className="col s12 m6 l3 xl3"><i className="fa fa-instagram" aria-hidden="true"></i></div>
+        {this.renderPics()}
 
 
       </div>
@@ -60,6 +53,6 @@ export default createContainer(() => {
   // subscribe api after removing autopublish
 
   return {
-    pics: Pics.find({}, {limit: 3} ).fetch(),
+    pics: Pics.find({}, {limit: 3}).fetch(),
   }
 }, Instagram);
