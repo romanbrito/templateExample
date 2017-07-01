@@ -21,7 +21,7 @@ Meteor.methods({
 
 
       result.data.data.map(function (element) {
-        //console.log( Pics.findOne({picID: element.id}, {picID:1}));
+        //only save new pics
         if ( !Pics.findOne({picID: element.id}, {picID:1}) ) {
 
           //console.log("Find picID " + element.id);
