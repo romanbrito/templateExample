@@ -14,12 +14,12 @@ class App extends Component {
           <Instagram/>
         </div>
 
-        <div className="row">
-          <div className="col s6 offset-s6">
-            <AccountsUIWrapper/>
-          </div>
+        {/*<div className="row">*/}
+          {/*<div className="col s6 offset-s6">*/}
+            {/*<AccountsUIWrapper/>*/}
+          {/*</div>*/}
 
-        </div>
+        {/*</div>*/}
 
       </div>
     );
